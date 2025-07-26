@@ -14,7 +14,8 @@ struct ContentView: View {
                       punchline: "There was nothing left but de Brie"),
                  Joke(setup: "Dad, can you put my shoes on?",
                       punchline: "I dont think they'll fit me"),
-                 Joke(setup: "Why did the strawberry cry", punchline: "Because he was in a jam")]
+                 Joke(setup: "Why did the strawberry cry", punchline: "Because he was in a jam"),
+                 Joke(setup: "How do two programmers make money", punchline: "One writes viruses, the other anti-viruses")]
     
     @State private var showPunchline = false
     @State private var currentJoke = 0
